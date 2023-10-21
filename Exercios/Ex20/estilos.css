@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.caixas{
+    background-color: rgb(109, 99, 99);
+    text-align: center;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px ;
+    display: inline-block;
+}
+div.paragrafo{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+div.paragrafo:hover{
+    background-color: aquamarine;
+
+}
+div:hover{
+    background-color: blueviolet;
+}
+
+div > p {
+    display: none;
+}
+div:hover > p{
+    display: block;
+}
